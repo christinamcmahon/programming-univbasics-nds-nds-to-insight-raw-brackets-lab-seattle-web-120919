@@ -31,5 +31,7 @@ def directors_total(director)
   index = 0 
   while index < director[:movies].length do
     total += director[:movies][index][:worldwide_gross]
-    index += 1
+    index += 1 
+  end
+  total
 end
