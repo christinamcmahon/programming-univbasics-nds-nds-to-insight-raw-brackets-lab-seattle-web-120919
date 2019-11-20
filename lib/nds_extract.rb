@@ -29,5 +29,5 @@ end
 def directors_total(director)
   total = 0 
   index = 0 
-  
+  while index < 
 end
