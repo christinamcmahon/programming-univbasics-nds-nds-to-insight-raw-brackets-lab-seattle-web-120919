@@ -30,5 +30,5 @@ def directors_total(director)
   total = 0 
   index = 0 
   while index < director[:movies].length do
-    total += 
+    total += director[:movies][]
 end
