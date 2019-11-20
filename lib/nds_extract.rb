@@ -11,7 +11,7 @@ def directors_totals(nds)
   directors_index = 0 
   while directors_index < nds.length do
     director = nds[directors_index]
-    result[director[:name]]
+    result[director[:name]] = directors_total
   end
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
