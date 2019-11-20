@@ -25,3 +25,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   result
 end
+
+def directors_total(director)
+  
+end
